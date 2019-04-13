@@ -1,13 +1,24 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Change Calculator</title>
-  </head>
-  <body>
-    <!-- Write your markup here -->
+    <style>body{background-color: #232330; color: gainsboro; padding-left: 10%; } button { color:white;}</style>
+<body>
 
-    <!-- Don't forget to add your <script> tag here -->
+<h2>The / Operator</h2>
 
-  </body>
+<p id="demo"></p>
+<input id="purchase"placeholder=" Purchase amount $A ">
+<input id="paid" placeholder=" Customer paid $B ">
+<h4 id="change">Change is due: </h4>
+
+<h4 id="dollar" > $ Dollar: </h4>
+<button onclick="calculateChange()"><h4>Change</h4></button><hr>
+
+<input id="quarter" placeholder="Quarter">
+<input id="dime" placeholder="Dime">
+<input id="nickel" placeholder=" Nickel">
+<input id="penny" placeholder="Penny">
+
+<script src="main.js"></script>
+</body>
 </html>
